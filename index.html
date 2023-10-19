@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/be03e873de.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+            <ul class="ul_header">
+                <img class="logo_udemy" src="./img/Udemy-Logo-2021-present.png" alt="">
+                
+                <li class="li_header">
+                    <p>Categorieën</p>
+                </li>
+                <li class="li_header li_search-bar">
+                    <img class="search-bar_header_icon" src="./img/icons8-search-30.png" alt="">
+                    <input class="search_bar_header" type="text" placeholder="Alles zoeken">
+                </li>
+                <li class="li_header">game streams</li>
+                <li class="li_header">game verkopen</li>
+                <li class="li_header">
+                    <img class="cart_header" src="./img/icons8-shopping-cart-24.png" alt="">
+                </li>
+                <li class="li_header">
+                    <button class="login_header">Inloggen</button>
+                </li>
+                <li class="li_header">
+                    <button class="inschrijven_header">Inschrijven</button>
+                </li>
+                <li class="li_header">
+                    <img class="wereldbold_header" src="./img/icons8-geography-50.webp" alt="">
+                </li>
+            </ul>
+    </header>
+
+    <main>
+        <!--  -->
+        <section class="section_main_udemy">
+            <img class="section_main_udemy_foto" src="https://cdn.mos.cms.futurecdn.net/cr3MZ5UnVqtkQQmmSNpG25-1920-80.jpg.webp" alt="">
+        </section>
+        <section class="section_main_udemy_cardje">
+            <div class="div_main_udemy_cardje">
+                <h2 class="h2_cardje">We helpen je je doelen te bereiken</h2>
+                <p class="p_cardje">Meld je aan om te zien hoeveel je kunt besparen op games</p>
+            </div>
+        </section>
+
+        <article class="article_udemy_articles">
+            <section class="section_article_udemy">
+                <h1 class="h1_article_udemy">Een veelzijdig aanbod aan cursussen</h1>
+                <p class="p_article_udemy">Je kunt kiezen uit meer dan 204.000 
+                online games en elke maand 
+                komen nieuwe games  bij</p>
+            </section>
+            <!-- carousel article -->
+            <section class="section_carousel_udemy">
+                <article class="article_carousel_udemy">
+                    <li class="div_carousel" onclick="opentabs('forbidden-west')">Forbidden-West</li>
+                    <li class="div_carousel" onclick="opentabs('Rd2')">Red dead redemption</li>
+                    <li class="div_carousel" onclick="opentabs('fifa')">Fifa 23</li>
+                    <li class="div_carousel" onclick="opentabs('gta')">GTA 5</li>
+                    <li class="div_carousel" onclick="opentabs('call_of_duty')">Call of duty</li>
+                    <li class="div_carousel" onclick="opentabs('ghost_of_tshumi')">ghost of tsushima</li>
+                    <li class="div_carousel" onclick="opentabs('Plague')">Plague tale</li>
+                </article>
+                <div id="forbidden-west" class="div_text_carousel carousl">
+                    <h1>Het vehaal van Aloy in de forbidden west</h1>
+                    <img src="./img/forbidden_west.webp" alt="" class="img_carousel">
+                    <p class="p_carousel">
+                        Horizon Forbidden West vervolgt het verhaal van Aloy 
+                        een half jaar na de gebeurtenissen van de Zero Dawn, 
+                        een jonge jageres van de Nora-stam die op zoek is naar 
+                        een mysterieuze grens die zich uitstrekt van Utah tot 
+                        aan de Pacifische kust om de bron te vinden van een 
+                        mysterieuze plaag die dodelijk is. alles wat het infecteert.</p>
+                    <button class="button_carousel_text">Bekijk meer informatie</button>
+                </div>
+                <div id="Rd2" class="div_text_carousel carousl" style="display:none">
+                    <h1>Analyseer en visualiseer gegevens met Excel</h1>
+                    <img src="./img/red_dead_redemption.webp" alt="" class="img_carousel">
+                    <p class="p_carousel">In welke bedrijfstak je ook werkt, 
+                        Microsoft Office Excel is een onmisbaar spreadsheetprogramma 
+                        om gegevens te ordenen en te presenteren. Excel biedt functies, 
+                        formules en draaitabellen waarmee je grote gegevenssets kunt 
+                        verzamelen en analyseren.</p>
+                        <button class="button_carousel_text">Bekijk meer informatie</button>
+                </div>
+                <div id="fifa" class="div_text_carousel carousl" style="display:none">
+                    <h1>Bouw websites en toepassingen met Webontwikkeling</h1>
+                    <img src="./img/fifa.webp" alt="" class="img_carousel">
+                    <p class="p_carousel">De wereld van webontwikkeling is zo groot 
+                        als het internet zelf.
+                        Een groot deel van onze sociale en professionele levens 
+                        speelt zich af op het internet, waardoor er hele nieuwe 
+                        industrieën ontstaan die zich bezighouden met het maken, 
+                        beheren en optimaliseren van websites en toepassingen die 
+                        steeds onmisbaarder voor ons worden.</p>
+                        <button class="button_carousel_text">Bekijk meer informatie</button>
+                </div>
+                <div id="gta" class="div_text_carousel carousl" style="display:none">
+                    <h1>Verbeter je vaardigheden op het gebied van softwareontwikkeling met JavaScript</h1>
+                    <img src="./img/gta.webp" alt="" class="img_carousel">
+                    <p class="p_carousel">JavaScript is een van de meest verspreide programmeertalen 
+                        ter wereld, voornamelijk omdat het de basis is voor interactieve 
+                        webtoepassingen. Bovendien is JavaScript een geweldige programmeertaal 
+                        voor beginners omdat zij hiermee code kunnen schrijven waarmee ze een 
+                        visueel resultaat creëren en dat is leuk én nuttig als je net als 
+                        programmeur aan de slag gaat. Dynamische content is momenteel een 
+                        zeer actueel thema in de wereld</p>
+                        <button class="button_carousel_text">Bekijk meer informatie</button>
+                </div>
+                <div id="call_of_duty" class="div_text_carousel carousl" style="display:none">
+                    <h1>Maak beslissingen op basis van feitelijke gegevens met Data Science</h1>
+                    <img src="./img/call_of_duty.webp" alt="" class="img_carousel">
+                    <p class="p_carousel">Datawetenschap is overal. Dankzij betere 
+                        datawetenschapsmethoden kunnen ondernemingen snijden in onnodige kosten, 
+                        computerwerk automatiseren en marktanalyses uitvoeren. Datawetenschap 
+                        is de sleutel om vooruit te komen in een competitieve wereld.</p>
+                        <button class="button_carousel_text">Bekijk meer informatie</button>
+                </div>
+                <div id="ghost_of_tshumi" class="div_text_carousel carousl" style="display:none">
+                    <h1>Word een expert in cloud computing met AWS-certificering</h1>
+                    <img src="./img/ghost_of_tshumi.webp" alt="" class="img_carousel">
+                    <p class="p_carousel">Amazon Web Services is een zich continu ontwikkelend 
+                        cloud-ecoysteem en daarom kan het lastig zijn om op de hoogte te blijven 
+                        van nieuwe AWS-services en -functies. Daarom is het een heel slimme 
+                        zet om een AWS-certificering te behalen. Daarmee ben jij in de 
+                        ogen van toekomstige werkgevers een AWS-expert.</p>
+                        <button class="button_carousel_text">Bekijk meer informatie</button>
+                </div>
+                <div id="Plague" class="div_text_carousel carousl" style="display:none">
+                    <h1>Verbeter je creatieve vaardigheden met Tekenen</h1>
+                    <img src="./img/plague.webp" alt="" class="img_carousel">
+                    <p class="p_carousel">Tekenen is niet alleen de basis voor de meeste 
+                        kunstvormen, maar het is ook een geweldige manier om stress kwijt 
+                        te raken en een goede uitlaatklep voor je innerlijke creativiteit. 
+                        Door te tekenen leren we beter te observeren, een oog voor detail 
+                        te ontwikkelen en onszelf uit te drukken.</p>
+                        <button class="button_carousel_text">Bekijk meer informatie</button>
+                </div>
+            </section>
+            <!-- einde carousel article -->
+            <!-- hier komen de kaartjes -->
+            
+
+            <section class="section_cardjes_courses_udemy">
+                <h1 class="section_cardjes_courses_udemy_h1">Hardcore games</h1>
+                <article class="article_cardjes_courses_udem">
+                    <div class="div_cardjes_courses">
+                        <img src="https://images.pushsquare.com/d0ca27a359ea3/horizon-forbidden-west-how-to-use-face-paints-guide-ps5-ps4-1.large.jpg" alt="" class="udemy_courses_cardjes_images">
+                        <article class="article_text_courses_cardjes">
+                            <h5>Horizon Forbidden West is een action-adventurespel...</h2>
+                            <p class="author_name_p">thomas</p>
+                            <div class="div_reviews-star_courses">
+                                <p class="p_review_numbers">4,4</p>
+                                <li class="li_revieuw">
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <sup>(29)</sup>
+                                </li>
+                                </div>
+                                <div class="div_prijs_courses-now">
+                                    <p class="courses_prijs-now">€16,99</p>
+                                    <p class="courses_prijs-previes">€34,99</p>
+                                </div>
+                        </article>
+                    </div>
+
+                    <div class="div_cardjes_courses">
+                        <img src="https://www.looper.com/img/gallery/red-dead-redemption-2-almost-looked-completely-different/arthur-was-almost-much-scarier-in-red-dead-redemption-2-1595363258.jpg" alt="" class="udemy_courses_cardjes_images">
+                        <article class="article_text_courses_cardjes">
+                            <h5>Red Dead Redemption 2 is een action-adventurespel...</h2>
+                            <p class="author_name_p">thomas</p>
+                            <div class="div_reviews-star_courses">
+                                <p class="p_review_numbers">4,4</p>
+                                <li class="li_revieuw">
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <sup>(29)</sup>
+                                </li>
+                                </div>
+                                <div class="div_prijs_courses-now">
+                                    <p class="courses_prijs-now">€25,99</p>
+                                    <p class="courses_prijs-previes">€54,99</p>
+                                </div>
+                        </article>
+                    </div>
+
+                    <div class="div_cardjes_courses">
+                        <img src="https://cdn.pocket-lint.com/r/s/970x/assets/images/162804-games-review-fifa-23-screens-image4-97mb0lkosb-jpg.webp" alt="" class="udemy_courses_cardjes_images">
+                        <article class="article_text_courses_cardjes">
+                            <h5>FIFA 23 is een voetbalsimulatiespel....</h2>
+                            <p class="author_name_p">thomas</p>
+                            <div class="div_reviews-star_courses">
+                                <p class="p_review_numbers">4,4</p>
+                                <li class="li_revieuw">
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <sup>(29)</sup>
+                                </li>
+                                </div>
+                                <div class="div_prijs_courses-now">
+                                    <p class="courses_prijs-now">€35,99</p>
+                                    <p class="courses_prijs-previes">€64,99</p>
+                                </div>
+                        </article>
+                    </div>
+
+                    <div class="div_cardjes_courses">
+                        <img src="https://cdn.appuals.com/wp-content/uploads/2020/11/ac-valhalla.jpg" alt="" class="udemy_courses_cardjes_images">
+                        <article class="article_text_courses_cardjes">
+                            <h5>Assassin's Creed Valhalla is een action-adventurespel ...</h2>
+                            <p class="author_name_p">thomas</p>
+                            <div class="div_reviews-star_courses">
+                                <p class="p_review_numbers">4,4</p>
+                                <li class="li_revieuw">
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <sup>(29)</sup>
+                                </li>
+                                </div>
+                                <div class="div_prijs_courses-now">
+                                    <p class="courses_prijs-now">€45,99</p>
+                                    <p class="courses_prijs-previes">€89,99</p>
+                                </div>
+                        </article>
+                    </div>
+
+                    <div class="div_cardjes_courses">
+                        <img src="https://www.gamespot.com/a/uploads/scale_landscape/43/434805/3987058-1303487273-39820.jpg" alt="" class="udemy_courses_cardjes_images">
+                        <div class="overlay">text hallo</div>
+                        <article class="article_text_courses_cardjes">
+                            <h5>The Quarry is een interactief drama-horrorvideospel...</h2>
+                            <p class="author_name_p">thomas</p>
+                            <div class="div_reviews-star_courses">
+                                <p class="p_review_numbers">4,4</p>
+                                <li class="li_revieuw">
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                <sup>(29)</sup>
+                                </li>
+                                </div>
+                                <div class="div_prijs_courses-now">
+                                    <p class="courses_prijs-now">€32,99</p>
+                                    <p class="courses_prijs-previes">€55,99</p>
+                                </div>
+                        </article>
+                    </div>
+                </article>
+            </section>
+
+            
+        </article>
+
+        <!-- Uitgelichte onderwerpen per categorie -->
+        <section>
+            <article class="articles_categorien_courses">
+            <h2>Uitgelichte onderwerpen per categorie</h2>
+            <div class="div_categorien_courses">
+                <article class="article_categorie">
+                    <div class="div_categories">
+                        <h3 class="h1_div_categories">Action games.</h3>
+                        <p class="p_div_categories">Call of duty</p>
+                        <sub class="sub_div_categories">36,354,994 gekocht</sub>
+                        <p class="p_div_categories">GTA</p>
+                        <sub class="sub_div_categories">36,354,994 gekocht</sub>
+                        
+                    </div>
+                    <div class="div_categories">
+                        <h3 class="h1_div_categories">Role-playing games.</h3>
+                        <p class="p_div_categories">Forbidden-West</p>
+                        <sub class="sub_div_categories">36,354,994 gekocht</sub>
+                        <p class="p_div_categories">Red dead redemption</p>
+                        <sub class="sub_div_categories">36,354,994 gekocht</sub>
+                        
+                    </div>
+                    <div class="div_categories">
+                        <h3 class="h1_div_categories">Sports games.</h3>
+                        <p class="p_div_categories">Fifa 23</p>
+                        <sub class="sub_div_categories">36,354,994 gekocht</sub>
+                        <p class="p_div_categories">NBA 2K23</p>
+                        <sub class="sub_div_categories">36,354,994 gekocht</sub>
+                        
+                    </div>
+                    <div class="div_categories">
+                        <h3 class="h1_div_categories">Strategy games</h3>
+                        <p class="p_div_categories">python</p>
+                        <sub class="sub_div_categories">36,354,994 gekocht</sub>
+                        <p class="p_div_categories">web development</p>
+                        <sub class="sub_div_categories">36,354,994 gekocht</sub>
+                        
+                    </div>
+                </article>
+                <button class="button_categorie">Meer onderwerpen verkennen</button>
+            </div>
+        </article>
+
+        <!-- Word een instructeur -->
+
+        <article class="instructie__article">
+            <section class="section_instractor">
+                <div class="div_instractor_image">
+                    <img src="./img/worldmap.webp" alt="" class="intructie_foto">
+                </div>
+                <div class="div_intractor_text">
+                    <h1 class="h1_intractor">Word een streamer</h1>
+                    <p class="p_instractor">Miljoenen klanten krijgen op Udemy les van 
+                        gamer over de hele wereld. Wij bieden 
+                        de hulpmiddelen en vaardigheden zodat jij les
+                        kunt krijgen in je favoriete onderwerp.</p>
+                        <button class="button_instractor">Begin vandaag nog met lesgeven</button>
+                </div>
+            </section>
+        </article>
+
+        <!-- Trusted by over 12.500 great teams -->
+        <section class="section_trusted_by_team">
+            <article class="article_trusted_by_team">
+                <h1 class="h1_trusted_by_team">Trusted by over 12.500 great teams</h1>
+                <p class="p_trusted_by_team">Toonaangevende bedrijven gebruiken dezelfde cursussen om werknemers te helpen hun vaardigheden op peil te houden.</p>
+                <div class="div_trusted_by_team">
+                    <img src="./img/nasdaq-dark.svg" alt="" class="img_trusted_by_team">
+                    <img src="./img/volkswagen-dark.svg" alt="" class="img_trusted_by_team">
+                    <img src="./img/box-dark.svg" alt="" class="img_trusted_by_team">
+                    <img src="./img/netapp-dark.svg" alt="" class="img_trusted_by_team">
+                    <img src="./img/eventbrite-dark.svg" alt="" class="img_trusted_by_team">
+                    <img src="./img/tcs-dark.svg" alt="" class="img_trusted_by_team">
+                </div>
+            </article>
+        </section>
+
+        <!-- udemy bussiness -->
+        <section class="section_udemy_bussiness">
+            <article class="article_udemy_bussiness">
+                <div class="div_text_udemy_bussiness">
+                    <img class="img_text_udemy_bussiness" src="./img/GameMakerlogo.webp" alt="">
+                    <p>
+                        Krijg onbeperkt toegang tot 17.000+ van de topgames. 
+                        Leer en verbeter vaardigheden met 
+                        cursussen voor het bedrijfsleven en op het 
+                        gebied van tech, design en meer.
+                    </p>
+                    <button class="buttonimg_text_udemy_bussiness">Neem Udemy Business</button>
+                </div>
+                <div class="div_img_udemy_bussiness">
+                    <img class="imagediv_img_udemy_bussiness"  src="./img/aloy.webp" alt="">
+                </div>
+            </article>
+
+            <!-- Breng verandering in je leven door middel van educatie -->
+
+        </section>
+
+        <section class="breng_verandering">
+            <article class="article_breng_verandering">
+                <div class="div_breng_verandering_image">
+                    <img src="./img/arthur.webp" alt="" class="img_breng_veranderingen">
+                </div>
+
+                <div class="div_breng_veranderingen_text">
+                    <h1 class="h1_div_breng_veranderingen_text">Breng verandering in het leven van game</h1>
+                    <p class="p_div_breng_veranderingen_text">Gamers over de hele wereld beginnen nieuwe carrières, 
+                        maken vorderingen in hun vakgebied 
+                        en verrijken hun leven.</p>
+                    <button class="button_breng_veranderingen">Lees hoe ze dat doen</button>
+                </div>
+            </article>
+        </section>
+
+
+        <footer class="footer">
+            <section class="section_footer">
+                <article class="article_footer">
+                    <div class="ul_footer">
+                        <li class="li_footer">Udemy Business</li>
+                        <li class="li_footer">Lesgeven op Udemy</li>
+                        <li class="li_footer">De app Downloaden</li>
+                        <li class="li_footer">Info over ons</li>
+                        <li class="li_footer">Contact opnemen</li>
+                    </div>
+                    <div class="ul_footer">
+                        <li class="li_footer">Vacatures</li>
+                        <li class="li_footer">Blog</li>
+                        <li class="li_footer">Hulp en ondersteuning</li>
+                        <li class="li_footer">Partner</li>
+                        <li class="li_footer">Investeerders</li>
+                    </div>
+                    <div class="ul_footer">
+                        <li class="li_footer">Voorwaarden</li>
+                        <li class="li_footer">Privacybeleid</li>
+                        <li class="li_footer">Cookie-instellingen</li>
+                        <li class="li_footer">Sitemap</li>
+                        <li class="li_footer">Toegankelijkheidsverklaring</li>
+                    </div>
+                </article>
+                
+
+                <div class="ul_bol_footer">
+                    <img src="./img/icons8-geography-52.webp" alt="" class="img_bol_footer">
+                    <p>Nederland</p>
+                </div>
+
+                
+            </section>
+
+                <article class="article_icon_author">
+                    <div class="div_icon_author">
+                    <img src="./img/gamelogo.webp" alt="" class="img_icon_author">
+                    </div>
+                    <div class="div_author_text">
+                        <p>© vini software.</p>
+                    </div>
+                </article>
+
+
+           
+        </footer>
+        <!--  -->
+    </main>
+</body>
+</html>
